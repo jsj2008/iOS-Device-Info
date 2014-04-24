@@ -8,7 +8,6 @@ Based On Work Of Cykey
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/sysctl.h>
-#include "iOSInfoHeader/UIDevice-IOKitExtensions.h"
 /* Add
 PROJECTNAME_LDFLAGS=./libMobileGestalt.dylib
 PROJECTNAME_FRAMEWORKS = UIKit Foundation IOKit CoreFoundation
