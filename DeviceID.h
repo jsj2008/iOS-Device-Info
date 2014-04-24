@@ -2,8 +2,7 @@
 Mobile Gestalt Part Written By Naville.Zhang
 Based On Work Of Cykey
 ***********************************************/
-#include "iOSInfoHeader/CoreTelephony.h"
-#import "iOSInfoHeader/MobileGestalt.h"
+#import "MobileGestalt.h"
 #import <IOKit/IOKitLib.h>
 #include <stdio.h>
 #include <sys/types.h>
