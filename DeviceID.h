@@ -1,13 +1,15 @@
 /**********************************************
-Written By Naville.Zhang
+Mobile Gestalt Part Written By Naville.Zhang
 Based On Work Of Cykey
 ***********************************************/
-#import "MobileGestalt.h"
+#include "iOSInfoHeader/CoreTelephony.h"
+#import "iOSInfoHeader/MobileGestalt.h"
 #import <IOKit/IOKitLib.h>
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/sysctl.h>
+#include "iOSInfoHeader/UIDevice-IOKitExtensions.h"
 /* Add
 PROJECTNAME_LDFLAGS=./libMobileGestalt.dylib
 PROJECTNAME_FRAMEWORKS = UIKit Foundation IOKit CoreFoundation
@@ -68,5 +70,13 @@ IN MakeFile
     NSString *machine = (NSString*)MGCopyAnswer(kMGInternationalMobileEquipmentIdentity);
 
     return machine;
+}
++(NSString *)BaseBandSN{
+NSString *machine=(NSString*)MGCopyAnswer(kMGBasebandSerialNumber);
+return machine;
+}
++(NSString *)BluetoothAddress{
+NSString *machine=(NSString*)MGCopyAnswer(kMGBluetoothAddress);
+return machine;
 }
 @end
