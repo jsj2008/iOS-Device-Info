@@ -1,5 +1,5 @@
 /**********************************************
-Mobile Gestalt Part Written By Naville.Zhang
+Written By Naville.Zhang
 Based On Work Of Cykey
 ***********************************************/
 #import "MobileGestalt.h"
