@@ -2,14 +2,12 @@
 Mobile Gestalt Part Written By Naville.Zhang
 Based On Work Of Cykey
 ***********************************************/
-#include "iOSInfoHeader/CoreTelephony.h"
-#import "iOSInfoHeader/MobileGestalt.h"
-#import <IOKit/IOKitLib.h>
+#include "CoreTelephony.h"
+#import "MobileGestalt.h"
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/sysctl.h>
-#include "iOSInfoHeader/UIDevice-IOKitExtensions.h"
 /* Add
 PROJECTNAME_LDFLAGS=./libMobileGestalt.dylib
 PROJECTNAME_FRAMEWORKS = UIKit Foundation IOKit CoreFoundation
