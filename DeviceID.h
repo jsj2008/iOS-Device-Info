@@ -60,7 +60,7 @@ IN MakeFile
 }
 +(NSString *)ChipID{
     NSString *machine = (NSString*)MGCopyAnswer(kMGChipID);
-
+//Calling This In A SandBoxd Environment Is Likely To Cause A Crash.Not Recommend Using It In SandBox.
     return machine;
 }
 
