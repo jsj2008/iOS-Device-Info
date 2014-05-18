@@ -8,7 +8,6 @@
                 <string>UniqueDeviceID</string>
                 <string>SerialNumber</string>
                 <string>ModelNumber</string>
-                <string>ChipID</string>
                 <string>BluetoothAddress</string>
                 <string>BasebandSerialNumber</string>
                 <string>InternationalMobileEquipmentIdentity</string>
